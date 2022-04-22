@@ -9,25 +9,22 @@ This is my personal website showcasing examples of my work, my services, and how
 
 **Tech used:** HTML, CSS, JavaScript, Front-End
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+For this I included three pages that look like they are apart of one. I kept the background the same across the pages to increase uniformity and connection between the pages. I timed my transitions on the home page to showcase my welcome message and contrasted it with its own background but made it something a bit more translucent. The java script utilized was to add breakpoints and make sure certain parts of the opening site would pre-load so the initial transition would look smooth.
 
 ## Optimizations
-*(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+I added some changes into my javascript to adjust what was pre-loaded on the page and this definitely took the initial transition up a notch and made it look exactly the way I wanted. There are some changes I'm still focused on making to optimize the sites performance even more. For example, I LOVE the way the gif as a background add a quality that makes the site feel alive but loading the gif does cause the website to initially run slow until it can be loaded. This is especially a problem for those with slower internet speeds.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+No matter what your experience level, being an engineer means continuously learning. I learned alot about making some smooth transition on this website. I wanted my website to feel alive yet maintain a level of fluidity. I think I was able to accomplish this but I will still continue to work on it as my knowledge grows.
 
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
-**Palettable:** https://github.com/alecortega/palettable
+**Studio Ghibli Database:** https://github.com/mshailyn/StudioGhibli
 
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
+**Avatar the Last Airbender Databse:** https://github.com/mshailyn/ATLA
 
 
 
