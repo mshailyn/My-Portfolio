@@ -2598,25 +2598,6 @@ input, select, textarea {
 			display: block;
 		}
 
-		/* .image.left, .image.right {
-			max-width: 40%;
-		}
-
-			.image.left img, .image.right img {
-				width: 100%;
-			} */
-
-		/* .image.left {
-			float: left;
-			margin: 0 2rem 2rem 0;
-			top: 0.75rem;
-		} */
-
-		/* .image.right {
-			float: right;
-			margin: 0 0 2rem 2rem;
-			top: 0.75rem;
-		} */
 
 		.image.fit {
 			display: block;
@@ -2643,7 +2624,7 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 100%;
+				width: 80%;
 			}
 		.center{
 			display: block;

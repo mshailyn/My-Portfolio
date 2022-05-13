@@ -13,7 +13,7 @@ For this I included three pages that look like they are apart of one. I kept the
 
 ## Optimizations
 
-I added some changes into my javascript to adjust what was pre-loaded on the page and this definitely took the initial transition up a notch and made it look exactly the way I wanted. There are some changes I'm still focused on making to optimize the sites performance even more. For example, I LOVE the way the gif as a background add a quality that makes the site feel alive but loading the gif does cause the website to initially run slow until it can be loaded. This is especially a problem for those with slower internet speeds.
+I LOVE the way the gif as a background add a quality that makes the site feel alive but loading the gif does cause the website to initially run slow until it can be loaded. This is especially a problem for those with slower internet speeds. Would like to figure out how to make this smoother. 
 
 ## Lessons Learned:
 
