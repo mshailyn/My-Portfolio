@@ -3279,6 +3279,10 @@ input, select, textarea {
 				background-position: center, center, center center;
 				background-attachment: scroll, scroll, scroll
 			}
+			#wrapper {
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.gif");
+			background-size: auto, auto, auto;
+			}
 		}
 
 
