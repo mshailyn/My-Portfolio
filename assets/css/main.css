@@ -3274,7 +3274,8 @@ input, select, textarea {
 		}
 		@media screen and (max-width: 480px) {
 			#wrapper > .bg {
-				background-size: auto, auto, 350%;
+				/* background-size: auto, auto, 350%; */
+				background-size: cover;
 				background-position: center, center, center center;
 				background-attachment: scroll, scroll, scroll
 			}
