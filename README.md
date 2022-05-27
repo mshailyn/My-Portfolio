@@ -1,7 +1,7 @@
 # My Portfolio
 This is my personal website showcasing examples of my work, my services, and how to contact me.
 
-**Link to project:** https://shailyn-moore.netlify.app/
+**Link to project:** https://www.shailynmoore.com/
 
 ![Picture of Site](images/main.png?raw=true "Shailyn Moore's Portfolio")
 
