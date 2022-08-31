@@ -20,7 +20,7 @@ I LOVE the way the gif as a background add a quality that makes the site feel al
 No matter what your experience level, being an engineer means continuously learning. I learned alot about making some smooth transition on this website. I wanted my website to feel alive yet maintain a level of fluidity. I think I was able to accomplish this but I will still continue to work on it as my knowledge grows.
 
 ## Examples:
-Take a look at these couple of projects I've wokred on:
+Take a look at these couple of projects I've worked on:
 
 **Studio Ghibli Database:** https://github.com/mshailyn/StudioGhibli
 
