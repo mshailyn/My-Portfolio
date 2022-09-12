@@ -2610,7 +2610,8 @@ input, select, textarea {
 			}
 
 			.image.fit img {
-				width: 100%;
+				width: 70%;
+				margin: 2.5rem 15%
 			}
 
 		.image.main {

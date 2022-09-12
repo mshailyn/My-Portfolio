@@ -22,7 +22,7 @@ No matter what your experience level, being an engineer means continuously learn
 ## Examples:
 Take a look at these couple of projects I've worked on:
 
-**Studio Ghibli Database:** https://github.com/mshailyn/StudioGhibli
+**To-Do List Full-Stack Application:** https://github.com/mshailyn/todo-list
 
 **Avatar the Last Airbender Databse:** https://github.com/mshailyn/ATLA
 
