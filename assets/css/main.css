@@ -2598,10 +2598,9 @@ input, select, textarea {
 			display: block;
 		}
 
-
 		.image.fit {
 			display: block;
-			margin: 2.5rem 0;
+			margin: 0;
 			width: 100%;
 		}
 
@@ -2610,8 +2609,8 @@ input, select, textarea {
 			}
 
 			.image.fit img {
-				width: 70%;
-				margin: 2.5rem 15%
+				width: 90%;
+				margin: auto;
 			}
 
 		.image.main {
@@ -2663,6 +2662,12 @@ input, select, textarea {
 			-webkit-transform: scale(1.05);
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
+		}
+
+		.image.project {
+			display: block;
+			margin: 1rem 0;
+			width: 100%;
 		}
 
 /* Actions */
@@ -3643,7 +3648,7 @@ input, select, textarea {
 		overflow: hidden;
 		padding: 0 2rem 0 0;
 		position: relative;
-		width: calc(100% - 4rem);
+		width: 75%;
 		max-width: 72rem;
 		z-index: 2;
 	}
@@ -3777,10 +3782,13 @@ input, select, textarea {
 /* Main */
 
 	#main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		background-color: #ffffff;
 		position: relative;
 		margin: 0 auto;
-		width: calc(100% - 4rem);
+		width: 75%;
 		max-width: 72rem;
 		z-index: 2;
 	}
@@ -3800,6 +3808,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
+			width: 75%;
 			padding: 8rem 8rem 6rem 8rem ;
 		}
 
@@ -3965,6 +3974,28 @@ input, select, textarea {
 
 		}
 
+		#projects {
+			margin-top: 5rem;
+			display: flex;
+			flex-wrap:wrap;
+			justify-content:center;
+		}
+
+		#projects div{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 50%;
+			padding: 1rem
+		}
+
+		@media screen and (max-width: 840px) {
+
+			#projects div{
+				width: 100%;
+			}
+		}
+
 /* Footer */
 
 	#footer {
@@ -3978,7 +4009,7 @@ input, select, textarea {
 		cursor: default;
 		position: relative;
 		margin: 0 auto;
-		width: calc(100% - 4rem);
+		width: 75%;
 		max-width: 72rem;
 		z-index: 2;
 	}
@@ -4418,7 +4449,7 @@ input, select, textarea {
 	#copyright {
 		color: #ffffff;
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
+		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
