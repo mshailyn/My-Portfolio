@@ -24,9 +24,9 @@ Take a look at these couple of projects I've worked on:
 
 **To-Do List Full-Stack Application:** https://github.com/mshailyn/todo-list
 
-**Avatar the Last Airbender Databse:** https://github.com/mshailyn/ATLA
+**REACT Cookboook:** https://github.com/mshailyn/React-Cookbook
 
-**CodeWars Repo** https://github.com/mshailyn/CodeWars
+**Dandelion Full-Stack Application** https://github.com/mshailyn/100Hours
 
 
 
