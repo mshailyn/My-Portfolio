@@ -3285,7 +3285,7 @@ input, select, textarea {
 				background-attachment: scroll, scroll, scroll
 			}
 		}
-		@media screen and (min-width: 1260px) {
+		@media screen and (min-width: 2000px) {
 			#wrapper > .bg {
 				background-size: 225%;
 			}
