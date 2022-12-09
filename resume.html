@@ -56,28 +56,31 @@
 				<footer id="footer">
 					<section class="contact">
 						<h2>Contact Me</h2>
-						<form method="post" action="mailto:m.shailyn@yahoo.com" enctype="text/plain">
+						<form action="https://api.web3forms.com/submit" method="POST">
+							<input type="hidden" name="access_key" value="f271b541-a0f6-4a16-8485-2d43d1edab36">
 							<div class="fields">
 								<div class="field">
 									<label for="name">Name</label>
-									<input type="text" name="name" id="name" />
+									<input type="text" name="name" id="name" required aria-required="true"/>
 								</div>
 								<div class="field">
 									<label for="email">Email</label>
-									<input type="text" name="email" id="email" />
+									<input type="text" name="email" id="email" required aria-required="true"/>
 								</div>
 								<div class="field">
 									<label for="message">Message</label>
-									<textarea name="message" id="message" rows="3"></textarea>
+									<textarea name="message" id="message" rows="3" required aria-required="true"></textarea>
 								</div>
 							</div>
 							<div class="col-12">
 								<div class="col-6 space col-12-small">
-										<input type="checkbox" id="demo-human" name="demo-human">
+										<input type="checkbox" id="demo-human" name="demo-human" required aria-required="true">
 										<label for="demo-human">I am a human</label>
+										<span id="notHuman"></span>
 								</div><br />
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="primary" /></li>
+									<input type="hidden" name="redirect" value="https://web3forms.com/success">
+									<li><input id="submit" type="submit" value="Send Message" class="primary" /></li>
 									<li><input type="reset" value="Reset" /></li>
 								</ul>
 							</div>
