@@ -518,7 +518,6 @@
 
 	};
 
-
 	/**
 	 * Moves elements to/from the first positions of their respective parents.
 	 * @param {jQuery} $elements Elements (or selector) to move.
@@ -586,85 +585,3 @@
 	};
 
 })(jQuery);
-
-// 	document.querySelector('#submit').addEventListener('click', submit())
-
-// 	function submit(){
-// 	//CONTACT FORM 
-// 	let fields
-
-// 	//Connect fields to variables
-// 	document.addEventListener("DOMContentLoaded", function() {
-// 		fields.name = document.getElementById('name');
-// 		fields.email = document.getElementById('email');
-// 		fields.message = document.getElementById('message');
-// 		fields.demoHuman = document.getElementById('demo-human');
-// 	   })
-
-// 	// Check that values are not empty
-// 	function isNotEmpty(value) {
-// 		if (value == null || typeof value == 'undefined' ) return false;
-// 		return (value.length > 0);
-// 	   }
-
-// 	// Check that email is string
-// 	function isEmail(email) {
-// 		let regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
-// 		return regex.test(String(email).toLowerCase());
-// 	   }
-
-// 	//Field Validation
-// 	function fieldValidation(fields, validationFunction) {
-// 		if (field == null) return false;
-	
-// 		let isFieldValid = validationFunction(field.value)
-// 		if (!isFieldValid) {
-// 		fields.className = 'placeholderRed';
-// 		} else {
-// 		fields.className = '';
-// 		}
-	
-// 		return isFieldValid;
-// 	   }
-
-// 	//Is Human Validation
-// 	function isHuman(demoHuman){
-// 		if (!demoHuman.checked){
-// 		document.querySelector('#notHuman').innerHTML= 'Please check the box if you are not a Robot'
-// 		document.querySelector('#notHuman').style.color = 'red'
-// 		}else{
-// 			return true
-// 		}
-
-// 	}
-
-// 	//Combine all the previous checks
-// 	function isValid() {
-// 		var valid = true;
-
-// 		valid &= fieldValidation(fields.name, isNotEmpty);
-// 		valid &= fieldValidation(fields.message, isNotEmpty);
-// 		valid &= fieldValidation(fields.email, isEmail);
-// 		valid &= fieldValidation(fields.demoHuman, isHuman);
-	
-// 		return valid;
-// 	   }
-
-// 	//User class constructor
-// 	   class User {
-// 		constructor(name, message, email, demoHuman) {
-// 		this.name = name;
-// 		this.message = message;
-// 		this.email = email;
-// 		this.demoHuman = demoHuman;
-// 		}
-// 	   }
-
-// 	//Send Contact
-// 	function sendContact(){
-// 		if (isValid()){
-// 			let user
-// 		}
-// 	}
-	
-// }	
