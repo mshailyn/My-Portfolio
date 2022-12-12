@@ -2237,6 +2237,31 @@ input, select, textarea {
 				background-color: rgb(255, 165, 190);
 			}
 
+	section.download{
+		display: flex;
+		justify-content: center;
+		margin-top: 2rem;
+	}
+	
+	.download > a.button{
+		color: #fff !important;
+		background-color: #717981;
+		box-shadow: inset 0 0 0 2px #717981;
+		font-size: 1rem;
+		font-weight: 900;
+		letter-spacing: 0.2em;
+		height: 4rem;
+		line-height: 4rem;
+		padding: 0 2.5rem;
+	}
+
+	.download > a.button:hover {
+			box-shadow: inset 0 0 0 2px rgb(255, 165, 190);
+			color: #fff !important;
+			background-color: rgb(255, 165, 190);
+		}
+
+
 /* Form */
 
 	form {
@@ -2609,8 +2634,9 @@ input, select, textarea {
 			}
 
 			.image.fit img {
-				width: 90%;
+				width: 100%;
 				margin: auto;
+				margin-bottom: 1.25rem;
 			}
 
 		.image.main {
@@ -3814,7 +3840,11 @@ input, select, textarea {
 
 		#main > .post {
 			width: 75%;
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 8rem 6rem 6rem 6rem ;
+		}
+
+		#main > .resume {
+			width: 100%;
 		}
 
 			#main > .post header.major > .date {
@@ -3991,7 +4021,7 @@ input, select, textarea {
 			flex-direction: column;
 			align-items: center;
 			width: 50%;
-			padding: 1rem
+			padding: 2rem
 		}
 
 		@media screen and (max-width: 840px) {
