@@ -3542,6 +3542,22 @@ input, select, textarea {
 
 		}
 		@media screen and (max-width: 480px) {
+
+		#intro {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-moz-justify-content: -moz-center;
+			-webkit-justify-content: -webkit-center;
+			-ms-justify-content: -ms-center;
+			justify-content: center;
+		}
+
 			#intro p {
 				font-size: 2rem;
 			}
