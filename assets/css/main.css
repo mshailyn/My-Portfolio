@@ -3892,6 +3892,10 @@ input, select, textarea {
 					padding: 4rem 2rem 2rem 2rem ;
 				}
 
+				#main > .resume{
+					margin-bottom: 3rem;
+				}
+
 					#main > .post header.major > .date {
 						margin-top: -1rem;
 						margin-bottom: 2rem;
