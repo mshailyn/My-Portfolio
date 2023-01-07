@@ -3313,7 +3313,7 @@ input, select, textarea {
 		}
 		@media screen and (min-width: 1700px) {
 			#wrapper > .bg {
-				background-size: 225%;
+				background-size: 175%;
 			}
 		}
 
